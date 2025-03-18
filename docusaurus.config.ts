@@ -1,13 +1,15 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -33,11 +35,15 @@ const config: Config = {
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       {
         docs: {
+          routeBasePath: '/',
+          include: ['intro.md', '**/*.md'],
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/Anto-nain/sentiment_analysis/edit/main/website/',
+          remarkPlugins: [remarkMath],
+          rehypePlugins: [rehypeKatex],
         },
         blog: {
           showReadingTime: true,
@@ -49,24 +55,31 @@ const config: Config = {
       },
     ],
   ],
-
+  
   themeConfig: {
+    stylesheets: [
+      {
+        href: 'https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css',
+        type: 'text/css',
+        integrity: 'sha384-TWxOtx3KiwU1LEzZmz7RLFiD9/U2Fi5bl+QQHZfC5PbAd7M/aZCZR5vJg8os9gL3',
+        crossorigin: 'anonymous',
+      },
+    ],
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/logo.png',
     navbar: {
-      title: 'My Site',
+      title: 'L\'analyse de Sentiment dans le Secteur Financier',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'ECL',
+        src: 'img/logo.png',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: ' ',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/Anto-nain/sentiment_analysis',
           label: 'GitHub',

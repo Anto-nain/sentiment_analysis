@@ -1,47 +1,16 @@
 ---
-sidebar_position: 1
+id: introduction
+title: Introduction
+slug: /
+sidebar_label: Introduction
 ---
 
-# Tutorial Intro
+# L'Analyse de Sentiment dans le secteur Financier
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Dans le cadre du *MOS 4.4 - Nouvelles Technologies de l'Information et de la Communication*, j'ai décidé de réaliser une étude de Veille Technologique sur l'*Évolution de l'utilisation des méthodes statistiques avancées dans le secteur financier*. Ce sujet, volontairement large regroupe deux milieux auxquels je voue un intérêt particulier : le secteur financier d'une part et les technologies modernes du monde des données d'autre part ; notamment concernant les statistiques, le Machine Learning et plus généralement, la Data Science.
 
-## Getting Started
+Entre les mois de janvier et mars 2025, j'ai réalisé de nombreuses recherches sur des thématiques au croisement de ces deux domaines d'études. Ce rapport a pour objectif de retracer le fruit de mes recherches et de mettre en avant les technologies vieillissantes et novatrices que j'ai rencontrées.
 
-Get started by **creating a new site**.
+**Conseils de lecture**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Ce site est divisé en plusieurs sections permettant de retracer l'évolution de mes recherches dans son déroulé chronologique. À l'aide de la barre de navigation à gauche, vous pouvez accéder à chacune de ces sections quand vous le souhaitez. Vous pourrez aussi utiliser les boutons de bas de page afin de naviguer vers la section suivante ou précédente.
