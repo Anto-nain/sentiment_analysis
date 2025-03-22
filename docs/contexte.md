@@ -24,7 +24,7 @@ Elles permettent de couvrir les risques liés à la vie quotidienne, à l’acti
 ![Les assurances](img/assurance.png)
 
 ### Les sociétés de gestion de fonds d’investissement
-Les sociétés de gestion de fonds d'investissement ( plus connues sous le terme d'Asset Management à l'internationnal) gèrent des fonds d’investissement pour le compte de clients institutionnels ou particuliers. Ces sociétés prennent des décisions basées sur des modèles quantitatifs avancés afin d’optimiser la rentabilité des portefeuilles. Leur objectif est simple, Investir sur les marchés financiers pour obtenir un rendement supérieur à celui des placements traditionnels.
+Les sociétés de gestion de fonds d'investissement ( plus connues sous le terme d'Asset Management à l'international) gèrent des fonds d’investissement pour le compte de clients institutionnels ou particuliers. Ces sociétés prennent des décisions basées sur des modèles quantitatifs avancés afin d’optimiser la rentabilité des portefeuilles. Leur objectif est simple, Investir sur les marchés financiers pour obtenir un rendement supérieur à celui des placements traditionnels.
 
 ![Les sociétés de gestion de fonds d'investissement](img/AM.png)
 
@@ -34,8 +34,8 @@ Ils supervisent et régulent les marchés financiers pour garantir leur bon fonc
 ![Les organismes étatiques et régulateurs](img/oragnisme.png)
 
 
-:::info[Quelle conséquence sur leurs activités ?] 
-Ces différents acteurs prenent tous des décisions stratégiques cruciales pour l’économie mondiale. Il est donc nécessaire dans leurs activitées de s'appuyer sur des données fiables et des modèles statistiques robustes pour anticiper les risques et saisir les opportunités.
+:::tip[Quelle conséquence sur leurs activités ?] 
+Ces acteurs prennent des décisions clés pour l’économie mondiale. S'appuyer sur des données fiables et des modèles statistiques solides est essentiel pour anticiper les risques et saisir les opportunités.
 :::
 
 ## Les statistiques et la finance  
@@ -88,4 +88,6 @@ Si les modèles statistiques et l’intelligence artificielle permettent d’opt
 
 Or, les marchés financiers sont fortement influencés par la psychologie des investisseurs, les actualités économiques et politiques, ainsi que les réactions du public. C’est ici qu’intervient l’analyse de sentiment.
 
-L’analyse de sentiment consiste à exploiter des sources de données textuelles (articles de presse, rapports d’analystes, tweets, forums financiers…) pour extraire des indicateurs de confiance ou de méfiance à l’égard d’un actif ou du marché global. Grâce aux progrès du Traitement Automatique du Langage Naturel (NLP), il est désormais possible d’intégrer cette dimension qualitative dans les modèles de décision financière.
+L’analyse de sentiment consiste à exploiter des sources de données textuelles (articles de presse, rapports d’analystes, tweets, forums financiers…) pour extraire des indicateurs de confiance ou de méfiance à l’égard d’un actif ou du marché global. Ce travail copie grandement celui d'un **trader qualitatif**, qui utilise les sources d'actualités pour sonder l'opinion des investisseurs et ainsi investir en conséquence.
+
+Dans les pages qui suivent, nous retracerons les différentes évolutions de l'analyse de sentiment dans le secteur financier.

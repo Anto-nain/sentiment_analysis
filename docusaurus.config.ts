@@ -22,7 +22,7 @@ const config: Config = {
   organizationName: 'Anto-nain', // Usually your GitHub org/user name.
   projectName: 'sentiment_analysis', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -39,7 +39,7 @@ const config: Config = {
       {
         docs: {
           routeBasePath: '/',
-          include: ['intro.md', '**/*.md'],
+          include: ['**/*.md', '**/*.mdx'],
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl: 'https://github.com/Anto-nain/sentiment_analysis/edit/main/website/',
           remarkPlugins: [remarkMath],
@@ -68,7 +68,7 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/logo.png',
     navbar: {
-      title: 'L\'analyse de Sentiment dans le Secteur Financier',
+      title: 'L\'analyse de sentiment dans le secteur financier - Antonin Rouffet',
       logo: {
         alt: 'ECL',
         src: 'img/logo.png',

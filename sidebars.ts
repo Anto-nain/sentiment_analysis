@@ -25,19 +25,15 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
     },
     {
       type: 'category',
-      label: 'L\'analyse de sentiment',
+      label: 'Évolutions des technologies',
       items: [
-        'analyse_sentiment/index',
-        'analyse_sentiment/page1',
-        'analyse_sentiment/page2',
+        'evolution_techno/dict_senti',
+        'evolution_techno/nlp_senti',
       ],
     },
     {
-      type: 'category',
-      label: 'Évolutions des Technologies',
-      items: [
-        'evolution_techno/index',
-      ],
+      type: 'doc',
+      id: 'next',
     },
 
   ],
